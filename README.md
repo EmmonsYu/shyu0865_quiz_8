@@ -26,8 +26,8 @@ Part 2: Coding Technique Exploration
 
 In order to generate circles that fill the entire screen and do not overlap, I found the following piece of code. It checks newly generated circles are checked for overlap with existing circles by comparing the distance between their centers and the sum of their radii. If overlap occurs, they cease to grow. Only when a new circle does not overlap with any existing circles is it added to the array. Areas for improvement for the final project include generating circles of equal size, equidistant spacing, and arranged in a systematic pattern.
 
-**Circle packing**
+
+[Circle packing code link](https://happycoding.io/tutorials/p5js/creating-classes/circle-packing) 
+
 ![the circles](readmeimages/circle-packing-2.png)
 
-**Code link**
-https://happycoding.io/tutorials/p5js/creating-classes/circle-packing
